@@ -12,9 +12,9 @@ A production-ready **Retrieval-Augmented Generation (RAG)** system built with mo
 - **🚀 Production Ready**: FastAPI backend with async processing and caching
 - **⚡ High Performance**: Optimized with re-ranking, MMR diversity, and intelligent caching
 
-## 🏗️ Architecture
+## 🏗️ Flow Diagram
 
-![Flow Diagram](docs/screenshots/flow.png)
+![Flow Diagram](docs/screenshots/flow.svg)
 *Flow Diagram*
 
 ## 📸 Screenshots
