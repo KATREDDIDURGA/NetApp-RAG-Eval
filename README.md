@@ -342,20 +342,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ for intelligent document search and retrieval**
 
-[⭐ Star](your-repo-url) • [🐛 Report Bug](your-repo-url/issues) • [✨ Request Feature](your-repo-url/issues)
-
 </div>
-
-
-1. .\myenv\Scripts\Activate.ps1
-2. pip install -r requirements.txt
-3. python main.py
-4. Invoke-RestMethod -Uri "http://localhost:8000/ingest" -Method POST -ContentType "application/json" -Body '{"force_reprocess": true}'
-5. streamlit run app.py
-6. python debug_search.py
-
-# Run evaluation with default questions
-python evaluate_rag.py
-
-# Generate evaluation dashboard
-streamlit run eval_dashboard.py
