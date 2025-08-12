@@ -1,0 +1,18 @@
+# RAG Evaluation Dependencies
+# Install with: pip install -r evaluation_requirements.txt
+
+# Core evaluation
+pandas
+matplotlib
+seaborn
+numpy
+
+# Advanced RAG evaluation (optional)
+ragas
+datasets
+
+# API requests
+requests
+
+# Plotting and visualization
+plotly

@@ -1,0 +1,38 @@
+# venvs
+myenv/
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local config
+.env
+*.env
+
+# Streamlit cache
+.streamlit/
+
+# VS Code
+.vscode/
+
+# Data/output (optional)
+eval/out/
+data/vectorstore/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# .gitignore
+myenv/
+data/
+eval/
+__pycache__/
+*.pyc

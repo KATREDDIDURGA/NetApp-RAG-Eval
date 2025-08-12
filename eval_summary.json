@@ -1,0 +1,15 @@
+{
+  "count": 5,
+  "avg_confidence": 0.62,
+  "avg_latency_sec": 41.5066,
+  "modes": {
+    "vector": 2,
+    "keyword": 2,
+    "hybrid": 1
+  },
+  "ragas_scores": {
+    "answer_relevancy": null,
+    "faithfulness": null,
+    "context_precision": null
+  }
+}

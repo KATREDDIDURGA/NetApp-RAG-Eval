@@ -1,0 +1,23 @@
+name: "netapp-ai"
+start_urls:
+  - "https://docs.netapp.com/us-en/netapp-solutions/ai/wp-genai.html"
+  - "https://docs.netapp.com/us-en/netapp-solutions/ai/ai-minipod.html"
+  - "https://docs.netapp.com/us-en/netapp-solutions/ai/vector-database-solution-with-netapp.html"
+  - "https://docs.netapp.com/us-en/netapp-solutions/ai/aicp_introduction.html"
+  - "https://docs.netapp.com/us-en/netapp-solutions/ai/ai-edge-introduction.html"
+allowed_domains:
+  - "docs.netapp.com"
+path_allowlist: []
+disallow_file_ext:
+  - ".pdf"
+  - ".zip"
+  - ".png"
+  - ".jpg"
+  - ".jpeg"
+  - ".gif"
+max_pages: 50
+concurrency: 5
+request_timeout_s: 20
+rate_limit_sleep_ms: 300
+user_agent: "FriendlyResearchBot/1.0 (+contact@example.com)"
+save_dir: "data/raw/netapp-ai"
